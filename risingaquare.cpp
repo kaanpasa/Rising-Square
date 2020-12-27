@@ -46,7 +46,7 @@ void player(){                              // Player's function
         xm-=0.1;
 	}
 
-	if(ym>=5.0){                            // Collision detection section
+	if(ym>=5.5){                            // Collision detection section
         xm=0.0;
         ym=-3.0;
         ceren=0;
